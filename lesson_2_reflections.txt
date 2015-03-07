@@ -4,3 +4,20 @@ a .git file is created. This will start tracking the files after you run the "gi
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area is separate from the other locations, and allows you to have a space to work on specific files and keep
 their commits together.
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can add the files you are working with and then commit them when you are ready.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches can be used when creating new features. This way, you can experiment with the new feautures separately from
+the working version of your project.
+
+How do the diagrams help you visualize the branch structure?
+It is much easier to see which commits are on the same branch, and where splits occurred when a new branch was created.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+There is now a single tip of this branch. The code from each branch has been merged together.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merges could be useful if you are adding brand new lines of code, such as a new feature. The manual merges
+have the benefit of an actual human verifying what code makes its way into the final project.
